@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
-import { ModalComponent } from 'src/app/shared/modal/modal.component';
-import { ModalModel } from 'src/app/shared/modal/models/modal';
+import { ModalComponent } from '../shared/modal/modal.component';
+import { ModalModel } from '../shared/modal/models/modal';
 import { filter } from 'rxjs/operators';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
